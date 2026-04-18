@@ -1,4 +1,5 @@
-.controller.ds4 {
+.edit .controller.ds4,
+.controller.edit {
   background: url("https://dangerousduck112.github.io/controller-overlay/ChatGPT%20Image%20Apr%2018%2C%202026%2C%2009_02_41%20PM.png") no-repeat center center !important;
   background-size: contain !important;
 }

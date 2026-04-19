@@ -1,19 +1,4 @@
 .edit .controller.ds4 {
-  filter: hue-rotate(65deg) saturate(1.8) brightness(1.1) contrast(1.1) !important;
-}
-
-.edit .controller.ds4 .button {
-  filter: drop-shadow(0 0 6px rgba(255, 200, 0, 0.9)) !important;
-}
-
-.edit .controller.ds4 .face {
-  filter: hue-rotate(20deg) saturate(1.6) brightness(1.15) !important;
-}
-
-.edit .controller.ds4 .arrows {
-  filter: hue-rotate(35deg) saturate(1.5) brightness(1.1) !important;
-}
-
-.edit .controller.ds4 .sticks {
-  filter: hue-rotate(25deg) saturate(1.4) brightness(1.05) !important;
+  filter: hue-rotate(120deg) saturate(3) brightness(1.3) !important;
+  transform: scale(1.05) rotate(2deg) !important;
 }

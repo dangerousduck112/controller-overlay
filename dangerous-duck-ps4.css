@@ -1,4 +1,7 @@
 .edit .controller.ds4 {
-  filter: hue-rotate(120deg) saturate(3) brightness(1.3) !important;
-  transform: scale(1.05) rotate(2deg) !important;
+  background: url(https://dangerousduck112.github.io/controller-overlay/ChatGPT%20Image%20Apr%2018%2C%202026%2C%2009_02_41%20PM.png);
+}
+
+.controller.edit {
+  background: url(https://dangerousduck112.github.io/controller-overlay/ChatGPT%20Image%20Apr%2018%2C%202026%2C%2009_02_41%20PM.png);
 }

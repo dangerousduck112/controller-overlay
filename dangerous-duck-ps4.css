@@ -1,11 +1,4 @@
-.controller.custom {
-  width: 806px;
-  height: 598px;
-  background: url("https://dangerousduck112.github.io/controller-overlay/ChatGPT%20Image%20Apr%2018%2C%202026%2C%2009_02_41%20PM.png") no-repeat center center;
-  background-size: contain;
-}
-
-.custom.disconnected div,
-.controller.custom div {
-  display: none;
+.edit .controller.ds4 {
+  transform: rotate(3deg) scale(1.03) !important;
+  filter: hue-rotate(120deg) brightness(1.15) !important;
 }

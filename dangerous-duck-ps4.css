@@ -1,11 +1,13 @@
-.controller.custom {
-  width: 806px;
-  height: 598px;
-  background: url("https://dangerousduck112.github.io/controller-overlay/ChatGPT%20Image%20Apr%2018%2C%202026%2C%2009_02_41%20PM.png") no-repeat center center;
-  background-size: contain;
+.edit .controller.ds4 {
+  position: relative !important;
 }
 
-.custom.disconnected div,
-.controller.custom div {
-  display: none;
+.edit .controller.ds4::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("https://dangerousduck112.github.io/controller-overlay/ChatGPT%20Image%20Apr%2018%2C%202026%2C%2009_02_41%20PM.png") no-repeat center center;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 50;
 }

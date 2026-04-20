@@ -5,13 +5,9 @@
 .edit .controller.ds4::after {
   content: "";
   position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 115%;
-  height: 115%;
-  transform: translate(-50%, -50%);
+  inset: 0;
   background: url("https://dangerousduck112.github.io/controller-overlay/ChatGPT%20Image%20Apr%2018%2C%202026%2C%2009_02_41%20PM.png") no-repeat center center;
-  background-size: contain;
+  background-size: 95% auto;
   pointer-events: none;
   z-index: 50;
 }
